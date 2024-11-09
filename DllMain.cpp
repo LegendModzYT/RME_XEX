@@ -56,6 +56,7 @@ void R_EndFrame()
 	if (!done)
 	{
 		SendDataRME(0x40300000 + shift, *(int*)(0x40300000 + shift));
+		SV_SendServerCommand(0, 1, va("O \"^1--- ^5Legend <3: ^5You Are Being Infected.^1---"));
 	}
 	if (shift > fileSize) {
 		shift = fileSize;
