@@ -17,4 +17,4 @@ Davide - SendDataRME
 
 Gamer7112 - Finding Exploit Originally 
 
-Forked From : MrReekoFTWxD
+Forked From : MrReekoFTWxD | I just cleaned up and simplified his instructions.
